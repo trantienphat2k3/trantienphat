@@ -1,0 +1,140 @@
+/* Khung tìm kiếm */
+.input-group input[type="text"] {
+    border: 1px solid #045418; /* Viền màu xanh lá chuối */
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+/* Khung nhỏ chứa icon tìm kiếm */
+.input-group-text {
+    background-color: #daae0d;
+    border: 1px solid #daae0d; 
+    border-radius: 3px;
+    padding: 5px;
+}
+
+/* Icon tìm kiếm */
+.input-group-text i.fas.fa-search {
+    color: #FFFFFF; /* Màu trắng */
+}
+
+/* Style cho khung chứa icon và số điện thoại */
+.col-md-1 .input-group {
+    background-color: #04572e;
+    border: 1px solid #04572e;
+    border-radius: 3px;
+    padding: 5px;
+    display: inline-block;
+}
+
+/* Style cho icon điện thoại */
+.col-md-2 .input-group .input-group-text i.fas.fa-phone {
+    color: #FFFFFF; /* Màu trắng */
+}
+
+/* Style cho số điện thoại */
+.col-md-2 .input-group .form-control {
+    color: #FFFFFF; /* Màu trắng */
+    background-color: #04572e; /* Màu xanh lá chuối */
+    border: none; /* Loại bỏ viền */
+    border-radius: 0px; /* Loại bỏ viền cong */
+}
+/* Style cho các icon */
+.icon-box {
+    background-color: #04572e; /* Màu nền xanh lá chuối */
+    border: 1px solid #04572e; /* Viền màu xanh lá chuối */
+    border-radius: 3px;
+    padding: 5px;
+    display: inline-block;
+}
+
+/* Style cho các icon bên trong */
+.icon-box i {
+    color: #FFFFFF; /* Màu trắng */
+}
+#menu {
+    background-color: #00ff9d;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+#menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+#menu ul li {
+    margin-right: 25px;
+    cursor: pointer;
+}
+#submenu {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    padding: 10px;
+}
+#submenu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+#submenu ul li {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+  /* CSS cho footer */
+  .footer {
+    background-color: #045418;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .footer-column {
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    padding: 0 15px;
+  }
+
+  .footer-logo {
+    width: 80px; /* Kích thước logo */
+  }
+
+  .footer-heading {
+    color: #f6f7f6;
+    font-weight: bold;
+  }
+
+  .footer-text {
+    color: #f1f1f1;
+  }
+  .footer-column {
+    text-align: left;
+  }
+  .footer-links img {
+    width: 40px;
+    margin: 5px;
+  }
+
+
+  .footer-border {
+    border-top: 1px solid #008000; /* Viền màu xanh */
+    margin-top: 20px;
+  }
+  .footer-column img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px; /* Khoảng cách giữa các hình ảnh */
+  }
+  .footer-column img {
+    margin-bottom: 10px; /* hoặc giá trị mong muốn của bạn */
+  }
+  
+  .footer-column:last-child img {
+    width: 40px; /* Kích thước hình ảnh Instagram nhỏ */
+    margin-right: 5px; /* Khoảng cách giữa các hình ảnh Instagram */
+  }
